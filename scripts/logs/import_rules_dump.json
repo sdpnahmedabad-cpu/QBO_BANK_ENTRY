@@ -1,0 +1,308 @@
+[
+  {
+    "id": "7d523cad-c3b1-4779-bac7-06fdbfea69ab",
+    "client_id": "9341455370832342",
+    "rule_name": "Uber",
+    "rule_type": "Expense",
+    "match_type": "AND",
+    "conditions": [
+      {
+        "id": "1",
+        "field": "Description",
+        "value": "Uber",
+        "operator": "contains"
+      }
+    ],
+    "actions": {
+      "ledger": "Automobile",
+      "contactId": "56"
+    },
+    "is_active": true,
+    "created_at": "2025-12-24T18:17:46.403205+00:00",
+    "user_id": null
+  },
+  {
+    "id": "04e74e47-631f-412b-ade0-d9af267989a5",
+    "client_id": "9341455370832342",
+    "rule_name": "CC trf",
+    "rule_type": "Transfer",
+    "match_type": "AND",
+    "conditions": [
+      {
+        "id": "1",
+        "field": "Description",
+        "value": "Transfer to Savings",
+        "operator": "contains"
+      }
+    ],
+    "actions": {
+      "ledger": "Savings",
+      "contactId": null
+    },
+    "is_active": true,
+    "created_at": "2025-12-24T18:17:46.685681+00:00",
+    "user_id": null
+  },
+  {
+    "id": "59057b0a-ab89-4a7d-8f29-1ff3858b505c",
+    "client_id": "9341455370832342",
+    "rule_name": "US2",
+    "rule_type": "Expense",
+    "match_type": "AND",
+    "conditions": [
+      {
+        "id": "1",
+        "field": "Description",
+        "value": "US2",
+        "operator": "contains"
+      }
+    ],
+    "actions": {
+      "ledger": "Advertising",
+      "contactId": null
+    },
+    "is_active": true,
+    "created_at": "2025-12-24T18:17:47.359348+00:00",
+    "user_id": null
+  },
+  {
+    "id": "c3affa6c-0a8b-4421-8ad1-7a0b11dfd62b",
+    "client_id": "9341455370836467",
+    "rule_name": "US1",
+    "rule_type": "Expense",
+    "match_type": "AND",
+    "conditions": [
+      {
+        "id": "1",
+        "field": "Description",
+        "value": "US1",
+        "operator": "contains"
+      }
+    ],
+    "actions": {
+      "ledger": "Advertising",
+      "contactId": null
+    },
+    "is_active": true,
+    "created_at": "2025-12-24T18:17:47.559763+00:00",
+    "user_id": null
+  },
+  {
+    "id": "258e9906-a5fc-4f15-b763-100f198d5ff7",
+    "client_id": "9341455370836467",
+    "rule_name": "US1",
+    "rule_type": "Expense",
+    "match_type": "AND",
+    "conditions": [
+      {
+        "id": "1",
+        "field": "Description",
+        "value": "US1",
+        "operator": "contains"
+      }
+    ],
+    "actions": {
+      "ledger": "Advertising",
+      "contactId": null
+    },
+    "is_active": true,
+    "created_at": "2025-12-24T18:17:47.771122+00:00",
+    "user_id": null
+  },
+  {
+    "id": "f7597893-bd90-4fac-8a88-179d1999ca4b",
+    "client_id": "9341455370832342",
+    "rule_name": "US1",
+    "rule_type": "Expense",
+    "match_type": "AND",
+    "conditions": [
+      {
+        "id": "1",
+        "field": "Description",
+        "value": "US1",
+        "operator": "contains"
+      }
+    ],
+    "actions": {
+      "ledger": "Advertising",
+      "contactId": null
+    },
+    "is_active": true,
+    "created_at": "2025-12-25T06:46:35.943829+00:00",
+    "user_id": "3c43fe33-30c4-4251-9c32-a20cffceec52"
+  },
+  {
+    "id": "7757c2a0-b246-40a6-896d-fc604d89c269",
+    "client_id": "9341455370832342",
+    "rule_name": "US1",
+    "rule_type": "Expense",
+    "match_type": "AND",
+    "conditions": [
+      {
+        "id": "1",
+        "field": "Description",
+        "value": "US1",
+        "operator": "contains"
+      }
+    ],
+    "actions": {
+      "ledger": "Advertising",
+      "contactId": null
+    },
+    "is_active": true,
+    "created_at": "2025-12-25T06:46:36.438548+00:00",
+    "user_id": "3c43fe33-30c4-4251-9c32-a20cffceec52"
+  },
+  {
+    "id": "b1ad2f21-8cc4-477d-95f2-382d1d2c2a43",
+    "client_id": "9341455370832342",
+    "rule_name": "viraj ",
+    "rule_type": "Expense",
+    "match_type": "AND",
+    "conditions": [
+      {
+        "id": "1",
+        "field": "Description",
+        "value": "viraj",
+        "operator": "contains"
+      }
+    ],
+    "actions": {
+      "ledger": "Accounting",
+      "contactId": "56"
+    },
+    "is_active": true,
+    "created_at": "2025-12-25T06:56:23.253194+00:00",
+    "user_id": "3c43fe33-30c4-4251-9c32-a20cffceec52"
+  },
+  {
+    "id": "39d853d7-0f16-4e42-ab38-dacaf94db415",
+    "client_id": "9341455370836467",
+    "rule_name": "viraj ",
+    "rule_type": "Expense",
+    "match_type": "AND",
+    "conditions": [
+      {
+        "id": "1",
+        "field": "Description",
+        "value": "viraj",
+        "operator": "contains"
+      }
+    ],
+    "actions": {
+      "ledger": "Accounting",
+      "contactId": "56"
+    },
+    "is_active": true,
+    "created_at": "2025-12-26T13:44:19.649994+00:00",
+    "user_id": "3c43fe33-30c4-4251-9c32-a20cffceec52"
+  },
+  {
+    "id": "af7c2e60-36c8-4ae0-98ff-3fcc99e0e9d4",
+    "client_id": "9341455370836467",
+    "rule_name": "Amazone",
+    "rule_type": "Expense",
+    "match_type": "AND",
+    "conditions": [
+      {
+        "id": "1",
+        "field": "Description",
+        "value": "Amazone",
+        "operator": "contains"
+      }
+    ],
+    "actions": {
+      "ledger": "Advertising Expense 1",
+      "contactId": "120"
+    },
+    "is_active": true,
+    "created_at": "2025-12-26T13:44:08.397076+00:00",
+    "user_id": "3c43fe33-30c4-4251-9c32-a20cffceec52"
+  },
+  {
+    "id": "2dea07a5-728a-4b2f-98ee-a75554afece6",
+    "client_id": "9341455370836467",
+    "rule_name": "TRf to Checking",
+    "rule_type": "Transfer",
+    "match_type": "AND",
+    "conditions": [
+      {
+        "id": "1",
+        "field": "Description",
+        "value": "Checking",
+        "operator": "contains"
+      }
+    ],
+    "actions": {
+      "ledger": "Checking"
+    },
+    "is_active": true,
+    "created_at": "2025-12-26T13:47:57.451717+00:00",
+    "user_id": "3c43fe33-30c4-4251-9c32-a20cffceec52"
+  },
+  {
+    "id": "de957ebd-7afd-4787-9b23-7e50ce64fa28",
+    "client_id": "9341455370832342",
+    "rule_name": "TRf to Checking",
+    "rule_type": "Transfer",
+    "match_type": "AND",
+    "conditions": [
+      {
+        "id": "1",
+        "field": "Description",
+        "value": "Checking",
+        "operator": "contains"
+      }
+    ],
+    "actions": {
+      "ledger": "Checking"
+    },
+    "is_active": true,
+    "created_at": "2025-12-26T13:51:13.209998+00:00",
+    "user_id": "3c43fe33-30c4-4251-9c32-a20cffceec52"
+  },
+  {
+    "id": "6533d36f-5737-4085-9977-65c02c7e088c",
+    "client_id": "9341455370832342",
+    "rule_name": "Amazone",
+    "rule_type": "Expense",
+    "match_type": "AND",
+    "conditions": [
+      {
+        "id": "1",
+        "field": "Description",
+        "value": "Amazone",
+        "operator": "contains"
+      }
+    ],
+    "actions": {
+      "ledger": "Advertising Expense 1",
+      "contactId": "120"
+    },
+    "is_active": false,
+    "created_at": "2025-12-26T13:51:12.312302+00:00",
+    "user_id": "3c43fe33-30c4-4251-9c32-a20cffceec52"
+  },
+  {
+    "id": "f494457d-b883-4ef6-85dd-7de2c25892d4",
+    "client_id": "9341455370832342",
+    "rule_name": "Amazone ",
+    "rule_type": "Expense",
+    "match_type": "AND",
+    "conditions": [
+      {
+        "id": "1",
+        "field": "Description",
+        "value": "Amazone",
+        "operator": "contains"
+      }
+    ],
+    "actions": {
+      "ledger": "Advertising",
+      "contactId": "56"
+    },
+    "is_active": true,
+    "created_at": "2025-12-26T14:01:16.363237+00:00",
+    "user_id": "3c43fe33-30c4-4251-9c32-a20cffceec52"
+  }
+]

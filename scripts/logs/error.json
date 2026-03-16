@@ -1,0 +1,5 @@
+{
+  "message": "Cannot read properties of undefined (reading 'statusCode')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'statusCode')\n    at main (C:\\Users\\suniel\\Downloads\\QBO_BANK_ENTRY\\QBO_BANK_ENTRY\\reproduce-company-info.js:97:59)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)",
+  "responseBody": "No response body"
+}

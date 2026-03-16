@@ -1,0 +1,128 @@
+[
+  {
+    "id": "786dc5cd-2efd-41cc-b18b-27ffb1e0a8ff",
+    "company_id": "9341455370832342",
+    "name": "Uber",
+    "match_type": "AND",
+    "conditions": [
+      {
+        "id": "1",
+        "field": "Description",
+        "value": "Uber",
+        "operator": "contains"
+      }
+    ],
+    "transaction_type": "Expense",
+    "contact_id": "56",
+    "ledger": "Automobile",
+    "created_at": "2025-12-17T14:11:32.492673+00:00"
+  },
+  {
+    "id": "82e5a9df-b2ca-4a71-a5ef-28f8bccc59b8",
+    "company_id": "9341455370832342",
+    "name": "CC trf",
+    "match_type": "AND",
+    "conditions": [
+      {
+        "id": "1",
+        "field": "Description",
+        "value": "Transfer to Savings",
+        "operator": "contains"
+      }
+    ],
+    "transaction_type": "Transfer",
+    "contact_id": null,
+    "ledger": "Savings",
+    "created_at": "2025-12-17T14:12:38.267595+00:00"
+  },
+  {
+    "id": "caa15a23-1138-4de9-a2a7-1089a727f06e",
+    "company_id": "1",
+    "name": "Uber",
+    "match_type": "AND",
+    "conditions": [
+      {
+        "id": "1",
+        "field": "Description",
+        "value": "Uber",
+        "operator": "contains"
+      }
+    ],
+    "transaction_type": "Expense",
+    "contact_id": "110",
+    "ledger": "Automobile",
+    "created_at": "2025-12-18T14:28:10.898492+00:00"
+  },
+  {
+    "id": "769dc1c4-1b52-4cf2-b7fd-097b7f6c2eb5",
+    "company_id": "1",
+    "name": "Amazone",
+    "match_type": "AND",
+    "conditions": [
+      {
+        "id": "piw5kf4xd",
+        "field": "Description",
+        "value": "Amazone",
+        "operator": "contains"
+      }
+    ],
+    "transaction_type": "Expense",
+    "contact_id": "120",
+    "ledger": "Office Expenses",
+    "created_at": "2025-12-18T14:28:35.715421+00:00"
+  },
+  {
+    "id": "12198c69-b155-44dd-802a-90b33c49a960",
+    "company_id": "9341455370832342",
+    "name": "US2",
+    "match_type": "AND",
+    "conditions": [
+      {
+        "id": "1",
+        "field": "Description",
+        "value": "US2",
+        "operator": "contains"
+      }
+    ],
+    "transaction_type": "Expense",
+    "contact_id": null,
+    "ledger": "Advertising",
+    "created_at": "2025-12-18T14:51:37.774964+00:00"
+  },
+  {
+    "id": "4b2dca43-0f89-469e-afec-241fa8d981d2",
+    "company_id": "9341455370836467",
+    "name": "US1",
+    "match_type": "AND",
+    "conditions": [
+      {
+        "id": "1",
+        "field": "Description",
+        "value": "US1",
+        "operator": "contains"
+      }
+    ],
+    "transaction_type": "Expense",
+    "contact_id": null,
+    "ledger": "Advertising",
+    "created_at": "2025-12-18T15:21:08.330157+00:00"
+  },
+  {
+    "id": "17c6a2cb-9690-4a55-b77d-9ae2293faea5",
+    "company_id": "9341455370836467",
+    "name": "US1",
+    "match_type": "AND",
+    "conditions": [
+      {
+        "id": "1",
+        "field": "Description",
+        "value": "US1",
+        "operator": "contains"
+      }
+    ],
+    "transaction_type": "Expense",
+    "contact_id": null,
+    "ledger": "Advertising",
+    "created_at": "2025-12-18T15:21:10.988255+00:00"
+  }
+]

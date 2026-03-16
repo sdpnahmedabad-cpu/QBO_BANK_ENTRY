@@ -1,0 +1,3 @@
+# This file is not needed for Render
+# Render will auto-detect Next.js from package.json
+# Just delete this file and let Render auto-configure

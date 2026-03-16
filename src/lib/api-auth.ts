@@ -36,7 +36,7 @@ export async function verifyApiKey(request: Request): Promise<string> {
         .from("api_keys")
         .update({ last_used_at: new Date().toISOString() })
         .eq("token", apiKey)
-        .then(({ error }) => {
+        .then(({ error }: { error: any }) => {
             if (error) console.error("Failed to update API key last_used_at:", error);
         });
 

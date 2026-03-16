@@ -1,0 +1,29 @@
+services:
+  - type: web
+    name: finza-qbo
+    runtime: node
+    plan: free
+    rootDir: ./
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 20.18.1
+      - key: NODE_ENV
+        value: production
+      - key: NEXT_PUBLIC_QBO_CLIENT_ID
+        sync: false
+      - key: QBO_CLIENT_SECRET
+        sync: false
+      - key: NEXT_PUBLIC_QBO_ENVIRONMENT
+        value: sandbox
+      - key: NEXT_PUBLIC_QBO_REDIRECT_URI
+        sync: false
+      - key: QBO_TOKEN_SECRET
+        sync: false
+      - key: NEXT_PUBLIC_SUPABASE_URL
+        sync: false
+      - key: NEXT_PUBLIC_SUPABASE_ANON_KEY
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false

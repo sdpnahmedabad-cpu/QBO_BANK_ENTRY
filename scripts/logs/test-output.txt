@@ -1,0 +1,3 @@
+STARTING TEST
+Reading tokens...
+No token file
